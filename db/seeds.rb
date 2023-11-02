@@ -1,5 +1,6 @@
-message1 = Message.create(content: 'Hello, World!')
-message2 = Message.create(content: 'Greetings!')
-message3 = Message.create(content: 'Welcome!')
-message4 = Message.create(content: 'Hi Code Reviewer!')
-message5 = Message.create(content: 'Good day Happy Coding!')
+# db/seeds.rb
+Message.create!(message: "Hello, world!")
+Message.create!(message: "Hi there!")
+Message.create!(message: "What's up?")
+Message.create!(message: "Hey!")
+Message.create!(message: "Greetings!")
